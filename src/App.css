@@ -1,0 +1,83 @@
+/* App.css */
+.bar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #B25CE3, #60B3DF);
+  color: white;
+  padding: 10px;
+}
+
+.logout {
+  margin-left: auto;
+}
+
+.logout button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* สไตล์ข้อความ */
+.header-text {
+  font-family: 'Poppins', sans-serif; /* ใช้แบบอักษร Poppins */
+  font-weight: 400;
+  font-size: 36px;
+  color: #040404;
+  margin-left: 20px; /* เพิ่ม margin-right เพื่อจัดให้ชิดซ้ายของรูปภาพ logo */
+}
+
+/* กำหนดความกว้างและใช้ Flexbox เพื่อจัดวางรูปภาพและข้อความ */
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.menu-box {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+
+.menu-box ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu-box ul li:last-child {
+  margin-right: 0;
+}
+
+.menu-box ul li a {
+  padding: 15px 30px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.menu-box ul li a:hover {
+  background-color: #53D0F8; /* เมื่อเม้าส์ชี้ hover ที่ลิงค์ */
+}
+
+.menu-bar {
+  margin-left: 130px;
+  margin-top: 64px;
+}
+
+.bar-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #B25CE3, #60B3DF);
+  color: white;
+  padding: 50px;
+}

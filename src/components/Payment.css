@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Prompt', sans-serif;
+}
+.qrcode{
+    text-align: center;
+}
+.qrcode img{
+   width: 300px;
+   height: 300px;
+}
+#paid{
+    margin-right: 10px;
+}
+
+.navi-payment button{
+    margin: 0 5px; 
+    padding: 10px 40px; 
+    font-size: 18px; 
+    background-color: #53D0F8 ;
+    color: #000000; 
+    border: none; 
+    border-radius: 10px; 
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  .navi-payment button:hover{
+    background-color: #76ddff; 
+  }
+  .navi-payment button:first-child {
+    margin-left: 100px; /* กำหนดระยะห่างซ้ายของปุ่ม "Back" */
+  }
+  
+  .navi-payment button:last-child {
+    margin-left: 736px; /* กำหนดระยะห่างด้านซ้ายของปุ่ม "Next" */
+  }

@@ -1,0 +1,46 @@
+/* Styles for review cards */
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Prompt', sans-serif;
+}
+.review-card {
+  width: 400px; /* Adjust width to fit three cards in one row */
+  height: 300px;
+  margin: 30px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 22px;
+  text-indent: 20px;
+  margin-top: 50px;
+}
+
+/* Styles for rating stars */
+.star-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/* Additional styling for the purple background */
+.review-card:nth-child(n) {
+  background-color: #8C7AF4;
+  color: white;
+}
+.reviewDate{
+  display: inline-block;
+  font-size: 16px;
+  color: #dadada;
+}
+.usernameReivew{
+  font-size: 22px;
+  display: inline;
+}
+.reviewCate{
+  font-size: 16px;
+  color: #dadada;
+}

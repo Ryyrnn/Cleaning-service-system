@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Prompt', sans-serif;
+}
+.address {
+    margin-top: 40px;
+    font-size: 25px;
+    display: flex;
+    align-items: center; 
+  }
+  
+.location {
+    margin-left: 280px;
+    height: 60px;
+    width: 60px;
+    margin-top: 5px;
+    margin-right: -290px;
+  }
+  
+.title-about{
+    margin-left: 300px;
+}
+.detail{
+    margin-left: 200px;
+}
+
+.connection{
+    font-size: 25px;
+    display: flex;
+}
+.connec{
+    margin-left: 300px;
+}
+.tel-num{
+    margin-left: 60px;
+}
+.phone{
+    margin-left: 280px;
+    height: 50px;
+    width: 50px;
+    margin-top: 15px;
+    margin-right: -280px;
+  }
+.bar-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #B25CE3, #60B3DF);
+    color: white;
+    padding: 50px;
+    font-size: 32px;
+    margin-top: -19.5px;
+  }
+  .image-container {
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 40px;
+    
+  }
+  
+  .image-container .image-wrapper img {
+    margin-top: 100px;
+    transition: transform 0.3s ease;
+    
+    height: 240px;
+    width: 300px;
+    overflow: hidden;
+  }
+  
+  .image-container .image-wrapper:hover img {
+    transform: scale(1.1); 
+  }
+  

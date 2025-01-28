@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Prompt', sans-serif;
+}
+.headerPay {
+  font-size: 32px;
+  font-weight: bolder;
+  margin-top: 50px;
+  margin-left: 100px
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .image {
+    width: 290px;
+    height: 270px;
+  }
+/*ิback-next*/
+.navigationcompletepay-buttons {
+  position: absolute;
+  margin-top: 23px; /*ตำแหน่งปุ่ม*/
+  width: 100%;
+  padding-bottom: 20px; /*ระยะปุ่มกับล่างจอ*/
+}
+
+.navigationcompletepay-buttons button {
+  margin: 0 5px; 
+  padding: 10px 40px; 
+  font-size: 18px; 
+  background-color: #53D0F8 ;
+  color: #000000; 
+  border: none; 
+  border-radius: 10px; 
+  cursor: pointer; 
+  
+} 
+
+.navigationcompletepay-buttons button:hover {
+  background-color: #76ddff; 
+}
+.navigationcompletepay-buttons button:first-child {
+  margin-left: 1200px; /* กำหนดระยะห่างซ้ายของปุ่ม "Back" */
+}
+#completepay{
+  margin-left : 62px;
+}

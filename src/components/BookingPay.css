@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Prompt', sans-serif;
+}
+.title{
+    font-size: 26px;
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.payment-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.pay-body {
+    flex: 1;
+    text-align: left;
+    font-size: 26px;
+    margin-left: 500px;
+}
+
+.value-body {
+    flex: 1;
+    text-align: right;
+    font-size: 22px;
+    margin-right: 500px;
+}
+
+#method {
+    display: inline;
+    margin-left: 200px;
+
+}
+.icon{
+    width: 50px;
+    height: 35px;
+}
+.buttons{
+  display: inline-flex;
+  justify-content: center;
+  margin-left: 40px;
+  border-radius: 20px;
+  width: 300px;
+  height: 60px;
+  padding: 15px;
+  border: none;
+  font-size: 24px;
+}
+span{
+    margin-left: 20px;
+}
+.selected {
+    background-color: #53D0F8;
+}
+.buttons:hover{
+    background-color: #77ddff;
+    cursor: pointer;
+}
+
+.select-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    margin-left: 1300px;
+    margin-bottom: 50px;
+    width: 150px;
+    height: 50px;
+    background-color: #53D0F8;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 20px;
+  }
+  
+  .select-button:hover {
+    background-color: #69d8fd;
+  }
+  .navi-bookingPay button{
+    margin: 0 5px; 
+    padding: 10px 40px; 
+    font-size: 18px; 
+    background-color: #53D0F8 ;
+    color: #000000; 
+    border: none; 
+    border-radius: 10px; 
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+  .navi-bookingPay button:hover{
+    background-color: #76ddff; 
+  }
+  .navi-bookingPay button:first-child {
+    margin-left: 100px; /* กำหนดระยะห่างซ้ายของปุ่ม "Back" */
+  }
+  
+  .navi-bookingPay button:last-child {
+    margin-left: 950px; /* กำหนดระยะห่างด้านซ้ายของปุ่ม "Next" */
+  }

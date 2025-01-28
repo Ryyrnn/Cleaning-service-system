@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Prompt', sans-serif;
+}
+.review-container {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.booking-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.booking-id,
+.booking-date,
+.booking-time {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.rating-comments {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating,
+.comments {
+    flex: 1;
+    margin-right: 10px;
+}
+.navi-bookreview button{
+  margin: 0 5px; 
+  padding: 10px 40px; 
+  font-size: 18px; 
+  color: #000000; 
+  border: none; 
+  border-radius: 10px; 
+  cursor: pointer; 
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.navi-back button{
+    background-color: #53D0F8 ;
+}
+.navi-back button:hover{
+    background-color: #76ddff; 
+}
+
+.navi-send button{
+    background-color: #68DD82 ;
+}
+.navi-send button:hover{
+    background-color: #97f7ac; 
+}
+
+.block{
+    width: 500px;
+    margin: 50px auto 0 auto;
+    background: #f2f2f2;
+    border-radius: 20px;
+    text-align: center;
+    transition: margin-top 0.5s ease;
+    padding: 20px;
+    position: relative;
+}
+.booking {
+    width: 160px;
+    padding: 10px;
+    margin-left: 160px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #e6baff;
+    border-radius: 20px;
+}
+select {
+    padding: 10px; /* ระยะห่างภายในของกล่อง */
+    margin: 5px; /* ระยะห่างรอบขอบของกล่อง */
+    border: 2px solid #ccc; /* เส้นขอบของกล่อง */
+    border-radius: 5px; /* มุมของกล่องเลือก */
+    background-color: #fff; /* สีพื้นหลัง */
+    width: 120px;
+    margin-left: 20px;
+}
+textarea {
+    padding: 10px; /* ระยะห่างภายในของกล่อง */
+    margin: 5px; /* ระยะห่างรอบขอบของกล่อง */
+    border: 2px solid #ccc; /* เส้นขอบของกล่อง */
+    border-radius: 5px; /* มุมของกล่องเขียน */
+    resize: vertical; /* อนุญาตให้ปรับขนาดเฉพาะในแนวดิ่ง */
+    width: 200px;
+    height: 100px;
+    margin-left: 20px;
+}
+.textComment{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}

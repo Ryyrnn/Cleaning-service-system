@@ -1,0 +1,143 @@
+/* SignIn.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Prompt', sans-serif;
+}
+
+.sign_up {
+    position: relative; /* ตำแหน่งแบบอสังหาริมทรงสี่เหลี่ยม */
+    display: flex;
+    align-items: center; /* จัดให้อยู่ตรงกลางตามแนวตั้ง */
+  }
+  
+.sign_bg {
+    width: 1920px; /* กว้างเต็มพื้นที่ที่กำหนด แต่ไม่เกินขนาดภาพ */
+    height: 775px; /* สูงเต็มพื้นที่ที่กำหนด แต่ไม่เกินขนาดภาพ */
+  }
+  
+.signup {
+    position: absolute;
+    top: 60%;
+    right: 150px;
+    transform: translateY(-50%);
+ }
+
+ .signup_text {
+    font-weight: 600;
+    font-size: 64px;
+    color: #040404;
+    margin-top: -250px;
+    
+ } 
+ .user_text{
+    font-weight: 500;
+    font-size: 20px;
+    color: #040404;
+    margin-right: 80px; 
+    margin-top: -50px;
+ }
+ .email_text{
+    font-weight: 500;
+    font-size: 20px;
+    color: #040404;
+    margin-right: 80px; 
+    margin-top: 0px;
+ }
+ .pass_text{
+    font-weight: 500;
+    font-size: 20px;
+    color: #040404;
+    margin-right: 80px; 
+    margin-top: 10px;
+ }
+ .fname_text{
+    font-weight: 500;
+    font-size: 20px;
+    color: #040404;
+    margin-right: 80px; 
+    margin-top: 10px;
+ }
+ .lanme_text{
+    font-weight: 500;
+    font-size: 20px;
+    color: #040404;
+    margin-right: 80px; 
+    margin-top: 10px;
+ }
+ .pnumber_text{
+    font-weight: 500;
+    font-size: 20px;
+    color: #040404;
+    margin-right: 80px; 
+    margin-top: 10px;
+ }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .username {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    width: 400px;
+  }
+  .email {
+    margin-top: -10px;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    width: 400px;
+  }
+  .password {
+    margin-top: -10px;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    width: 400px;
+  }
+  .Fname {
+    margin-top: -10px;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    width: 400px;
+  }
+  .Lanme {
+    margin-top: -10px;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    width: 400px;
+  }
+  .phoneNumber {
+    margin-top: -10px;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    width: 400px;
+  }
+  
+  .signup-button {
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 270px;
+    margin-top: 10px;
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right, #B25CE3, #60B3DF);
+    color: white;
+    cursor: pointer;
+    width: 150px;
+  }
+  
+  .signup-button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,242 @@
+/*Homepage.css */
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Prompt', sans-serif;
+}
+.bar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #B25CE3, #60B3DF);
+  color: white;
+  padding: 10px;
+}
+
+.logout {
+  margin-left: auto;
+}
+
+.logout button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* สไตล์ข้อความ */
+.header-text {
+  font-weight: 400;
+  font-size: 34px;
+  color: #040404;
+  margin-left: 9px; /* เพิ่ม margin-right เพื่อจัดให้ชิดซ้ายของรูปภาพ logo */
+  margin-top: 10px;
+}
+
+/* กำหนดความกว้างและใช้ Flexbox เพื่อจัดวางรูปภาพและข้อความ */
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+/*ปุ่มบาร์*/
+.custom-button{
+  background: none;
+  border: none;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 15px 30px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.custom-button:hover {
+  background-color: #53D0F8;
+}
+
+.bar-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #B25CE3, #60B3DF);
+  color: white;
+  padding: 50px;
+  font-size: 32px;
+}
+.bg_pic{
+  width: 1519px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20px;
+  overflow: hidden;
+  border: 0px solid;
+}
+
+.bg_pic figure img{
+  width: 1519px;
+  height: 650px;
+  float: left;
+}
+.bg_pic figure{
+  position: relative;
+  width: 500%;
+  margin: 0px;
+  left: 0px;
+  animation: bg2 18s infinite linear;
+}
+@keyframes bg2{
+  0%{left: 0%;}
+  15%{left: 0%;}
+  20%{left: -100%;}
+  35%{left: -100%;}
+  40%{left: -200%;}
+  60%{left: -200%;}
+  65%{left: -300%;}
+  80%{left: -300%;}
+  85%{left: -400%;}
+  100%{left: -400%;}
+}
+
+.bg_about_head{
+  font-weight: 500;
+  font-size: 32px;
+  color: #53D0F8;
+  margin-left: 20px; /* เพิ่ม margin-right เพื่อจัดให้ชิดซ้ายของรูปภาพ logo */
+  margin-top: 20px;
+}
+
+.bg_about_detail{
+  font-weight: 400;
+  font-size: 20px;
+  color: #040404;
+  margin-left: 40px; /* เพิ่ม margin-right เพื่อจัดให้ชิดซ้ายของรูปภาพ logo */
+  margin-top: -10px;
+  text-indent: 1.5em; 
+}
+.bg_about_detail1_1{
+  font-weight: 400;
+  font-size: 20px;
+  color: #040404;
+  /* เพิ่ม margin-right เพื่อจัดให้ชิดซ้ายของรูปภาพ logo */
+  margin-top: -10px;
+  text-indent: 1.5em; 
+}
+.bg_about_detail1{
+  font-weight: 400;
+  font-size: 20px;
+  color: #040404;
+}
+.bg_about_detail2{
+  font-weight: 400;
+  font-size: 20px;
+  color: #040404;
+  margin-left: 50px; /* เพิ่ม margin-right เพื่อจัดให้ชิดซ้ายของรูปภาพ logo */
+  margin-top: -10px;
+}
+
+
+.bg_service_head1{
+  font-weight: 500;
+  font-size: 32px;
+  color: #53D0F8;
+  margin-left: -40px; /* เพิ่ม margin-right เพื่อจัดให้ชิดซ้ายของรูปภาพ logo */
+  margin-top: 20px;
+}
+.bg_service_head2{
+  font-weight: 500;
+  font-size: 32px;
+  color: #53D0F8;
+  margin-left: 0px; /* เพิ่ม margin-right เพื่อจัดให้ชิดซ้ายของรูปภาพ logo */
+  margin-top: 20px;
+}
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.home1 {
+  margin-right: 20px;
+}
+
+.content {
+  flex: 1; /* ทำให้เนื้อหาขยายตามพื้นที่ที่เหลือ */
+}
+/*เพิ่ม*/
+
+ .container1 {
+    margin-top: 50px;
+    display: flex;
+    align-items: center; /* จัดให้รูปภาพและข้อความอยู่ตรงกลางกัน */
+  }
+
+  .content1{
+    display: flex;
+    flex-direction: column; 
+    margin-left: 50px; /* เพิ่ม margin-left เพื่อให้ข้อความอยู่ห่างจากรูปภาพ */
+  }
+
+  .bg_about_detail1 {
+    margin: 0; /* เอา margin ของ h3 ออกเพื่อให้ข้อความแต่ละบรรทัดตรงกัน */
+  }
+
+  .bg_about_detail1 strong{
+    font-weight: bold;
+  }
+  .bg_about_detail2 strong{
+    font-weight: bold;
+  }
+
+.animate {
+  animation: fadeInUp 1s forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/*contain2*/
+
+.container2 {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.home2 {
+  order: 2; 
+  margin-left: 20px; 
+  height: 400px;
+  width: 600px;
+}
+
+.content2 {
+  display: flex;
+  flex-direction: column; 
+  margin-left: 20px; 
+}
+.bg_company{
+  width: 1100px;
+  height: 1250px;
+  border-radius: 60px;
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  margin-left: 13%;
+}

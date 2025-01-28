@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Prompt', sans-serif;
+}
+
+/* ปุ่ม ประเภทของที่พัก */
+.category-buttons {
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+
+.category-buttons button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #D9D9D9;
+    color: #000000;
+    cursor: pointer;
+    margin-left: 10%;
+    width: 300px;
+    height: 60px;
+    font-size: 28px;
+    border-radius: 20px;
+}
+/*------------------*/
+
+/*ปุ่ม กดเลือกขนาดที่พัก*/
+.button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #D9D9D9;
+    color: #000000;
+    cursor: pointer;
+    margin-left: 500px;
+    width: 600px;
+    height: 60px;
+    margin-bottom: 32px;
+    font-size: 32px;
+    border-radius: 20px;
+    display : inline-block;
+  }
+  
+.button:hover{
+    background-color: #7adeff; /* เมื่อ hover */
+}
+  
+.button:active {
+    background-color: #53D0F8; /* เมื่อ active */
+}
+  
+.button:active,
+.button.selected 
+{
+  background-color: #53D0F8;
+  color: #3a3a3a;
+  border-color: #53D0F8;
+}
+
+.category-buttons button:hover{
+    background-color: #7adeff;
+  color: #3a3a3a;
+  border-color: #53D0F8;
+}
+.category-buttons button.selected{
+    background-color: #53D0F8;
+  color: #3a3a3a;
+  border-color: #53D0F8;
+}
+
+/*Text inside button*/
+
+.button-container {
+  display: grid;
+  grid-template-columns: auto 1fr; /* Adjust the column sizes as needed */
+  gap: 10px; /* Adjust the gap between elements */
+  align-items: center;
+}
+.left-text {
+    font-size: 24px;
+    margin-left: 30px;
+    justify-self: start; /* Align left */
+}
+.right-text {
+    font-size: 20px;
+    margin-right: 30px;
+    justify-self: end; /* Align right */
+}
+
+/*คำว่า โปรดเลือกขนาดพื้นที่*/
+.booking-title{
+    margin-top: 10px;
+    margin-left: 50px ;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    font-weight: bolder;
+}
+/* Image */
+.image-container {
+    margin-left: -50px;
+  }
+  
+.image1 {
+    margin-top: 50px;
+    margin-left: calc(10% + 40px);
+    width: 300px;
+    height: 300px; 
+    object-fit: cover; 
+    border-radius: 20px;
+}
+.image2 {
+  margin-top: 50px;
+  margin-left: 5px;
+  width: 300px;
+  height: 300px; 
+  object-fit: cover; 
+  border-radius: 20px;
+}
+.image3 {
+  margin-top: 50px;
+  margin-right: 145px;
+  width: 300px;
+  height: 300px; 
+  object-fit: cover; 
+  border-radius: 20px;
+}
+.navi-buttonGroup button{
+  margin: 0 5px; 
+  padding: 10px 40px; 
+  font-size: 18px; 
+  background-color: #53D0F8 ;
+  color: #000000; 
+  border: none; 
+  border-radius: 10px; 
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.navi-buttonGroup button:hover{
+  background-color: #76ddff; 
+}
+.navi-buttonGroup button:first-child {
+  margin-left: 100px; /* กำหนดระยะห่างซ้ายของปุ่ม "Back" */
+}
+
+.navi-buttonGroup button:last-child {
+  margin-left: 950px; /* กำหนดระยะห่างด้านซ้ายของปุ่ม "Next" */
+}
